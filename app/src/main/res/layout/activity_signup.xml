@@ -221,10 +221,32 @@
                         android:textColorHint="#7E7E7E"
                         android:textSize="@dimen/_13ssp" />
 
-
-
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/SignUpButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:fontFamily="@font/vazirregular"
+                android:includeFontPadding="false"
+                android:layout_marginTop="@dimen/_15ssp"
+                android:layout_marginStart="@dimen/_15ssp"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:text="ثبت نام"
+                android:textSize="@dimen/_15ssp"
+                app:layout_constraintTop_toBottomOf="@id/cardSignin" />
+
+            <TextView
+                android:id="@+id/withAccountText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/vazirregular"
+                android:gravity="center"
+                android:text="اگر اکانت دارید، وارد شوید"
+                android:textColor="#166C0C"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/_13ssp"
+                app:layout_constraintTop_toBottomOf="@+id/SignInButton" />
         </LinearLayout>
 
     </ScrollView>
